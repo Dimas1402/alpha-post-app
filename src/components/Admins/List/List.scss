@@ -1,0 +1,19 @@
+#list-box {
+    margin-top: 50px;
+    a{
+        text-decoration: none;
+    }
+    .list-active{
+        background:#1fc9c0;
+    }
+    #list {
+      background: none;
+      color: white;
+      border: none;
+      cursor: pointer;
+  
+      &:hover {
+        background: #1fc9c0;
+      }
+    }
+  }

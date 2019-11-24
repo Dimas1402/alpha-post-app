@@ -1,0 +1,22 @@
+{
+    "DataTransaksi": [
+        {
+            "id": "1",
+            "name":"Modal",
+            "jumlah" :"1.200.000",
+            "icon":"fas fa-coins"
+        },
+        {
+            "id": "2",
+            "name":"Keutungan",
+            "jumlah" :"500.000",
+            "icon":"fas fa-dollar-sign"
+        },
+        {
+            "id": "3",
+            "name":"Terpakai",
+            "jumlah" :"100.000",
+            "icon":"fas fa-hand-holding-usd"
+        }
+    ]
+}

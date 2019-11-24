@@ -1,0 +1,54 @@
+.content-admin {
+    overflow-y: scroll;
+    height: 100vh;
+    color: white;
+  }
+  
+  .box-content {
+    margin-top: 5px;
+    border-radius: 10px;
+    background: #20b2aa;
+    .box-sip {
+      margin-left: 15px;
+      margin-top: 10px;
+      .nilai-transaksi {
+        margin-left: 120px;
+        margin-top: 20px;
+      }
+    }
+    .list-barang-stock {
+      margin-top: -8px;
+    }
+    .list-stok {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+  
+    .list-barang {
+      background: none;
+      border: none;
+    }
+    .transaksi-card {
+      background: none;
+      border: none;
+    }
+  }
+  
+  .card-date {
+    margin-top: 5px;
+    background: #20b2aa;
+    border-radius: 10px;
+    .card-body {
+      color: white;
+    }
+  }
+
+  @media only screen and(max-width:800px) {
+    .content-admin {
+      position: absolute;
+      right: 0;
+      margin: 0;
+      left: 0;
+      top: 80px;
+    }
+  }

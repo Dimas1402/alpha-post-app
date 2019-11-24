@@ -1,0 +1,52 @@
+{
+    "JualBarang" :[
+        {
+            "id" : "1",
+            "name": "Nama Barang",
+            "placeholder":"nama barang...",
+            "type": "text",
+            "isi":[
+                {
+                    "isinya":"pensil"
+                },{
+                    "isinya":"pulpen"
+                }
+            ]
+       
+            
+            
+        },
+        {
+            "id" : "2",
+            "name":"Jumlah Barang",
+            "placeholder":"jumlah barang...",
+            "type":"number",
+            "isi":[
+                {
+                    "isinya":"pensil"
+                },{
+                    "isinya":"pulpen"
+                }
+            ]
+       
+            
+              
+                   
+        },
+        {
+            "id" : "3",
+            "name":"Harga Satuan",
+            "placeholder":"harga satuan...",
+            "type":"number",
+            "isi":[
+                {
+                    "isinya":"pensil"
+                },{
+                    "isinya":"pulpen"
+                }
+            ]
+       
+         
+        }
+    ]
+}

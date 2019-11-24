@@ -1,0 +1,23 @@
+.navbar{
+    display:none;
+    img{
+        width:50px;
+    }
+    #icon-down{
+        float:right;
+        color:white;
+        cursor: pointer;
+       font-size: 30px;
+       margin-top:8px;
+    
+    }
+    
+}
+
+@media only screen and(max-width:800px) {
+    .navbar{
+        display:block;
+        background: #20b2aa ;
+        z-index: 2;
+    }
+}

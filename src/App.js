@@ -1,5 +1,5 @@
 import React from "react";
-import Routes from "./routes/routes";
+import Routes from "./routes/Routes";
 
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
@@ -19,7 +19,7 @@ const Store = createStore(
 
 function App() {
   return (
-    <div className="App">
+    <div className="App admin">
       <Provider store={Store}>
         <Routes />
       </Provider>

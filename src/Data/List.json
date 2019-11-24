@@ -1,0 +1,28 @@
+{
+    "List": [
+        {
+            "id": "1",
+            "name":"Dashboard",
+            "icon":"fas fa-chart-line",
+            "path":"/admin/dashboard"
+        },
+        {
+            "id": "2",
+            "name":"Barang",
+            "icon":"fas fa-archive",
+            "path":"/admin/barang"
+        },
+        {
+            "id": "3",
+            "name":"Hasil Penjualan",
+            "icon":"fas fa-balance-scale",
+            "path":"/admin/hasil_penjualan"
+        },
+        {
+            "id": "4",
+            "name":"Kasir",
+            "icon":"fas fa-users",
+            "path":"/admin/kasir"
+        }
+    ]
+}

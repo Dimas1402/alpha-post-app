@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Hammersmith+One&display=swap");
+$font-h1: "Audiowide", cursive;
+
+.sidebar {
+    background: #20b2aa;
+    height: 100vh;
+    .silang {
+      display: none;
+    }
+
+    .img-logo {
+      width: 100px;
+      height: 100px;
+      margin-top: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .div-img {
+      background: #1fc9c0;
+      border-radius: 20px;
+      height: 80px;
+      #icon-circle {
+        color: rgb(21, 194, 5);
+      }
+      .img-admin {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: relative;
+        top: 5px;
+        left: 15px;
+      }
+
+      p {
+        color: white;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-family: $font-h1;
+      }
+      .admin-p {
+        position: absolute;
+        top: 140px;
+        right: 105px;
+        font-size: 12px;
+      }
+    }
+  }
+
+
+  @media only screen and(max-width:800px) {
+    .sidebar {
+      z-index: 99;
+      display: none;
+      #silang {
+        position: relative;
+        display: block;
+        float: right;
+        font-size: 30px;
+        top:10px;
+        cursor: pointer;
+        color: white;
+      }
+    }
+    #show {
+      display: block;
+    }
+    #hidden {
+      display: none;
+    }
+  
+  }

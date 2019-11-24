@@ -1,0 +1,32 @@
+.btn-tambah-jual {
+  background: #20b2aa;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  &:hover {
+    background: #1fc9c0;
+    color: white;
+  }
+}
+
+.card-tambah-jual {
+  background: #ecf0f0;
+  border: none;
+  label {
+    color: #7a8080;
+    font-size: 12px;
+  }
+  input {
+    border-radius: 10px;
+  }
+  .btn-tambah-barang {
+    background: #20b2aa;
+    color: white;
+    border: none;
+    margin-top: 10px;
+
+    &:hover {
+      background: #1fc9c0;
+    }
+  }
+}

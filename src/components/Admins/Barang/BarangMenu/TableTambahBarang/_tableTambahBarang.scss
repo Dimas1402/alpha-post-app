@@ -1,0 +1,32 @@
+.table-tambah-barang{
+    overflow-x: auto;
+    thead{
+        background: #20b2aa;
+        color:white;
+    }
+    .delete-table-tambah-barang{
+        background: none;
+        color:rgb(214, 8, 8);
+        border:none;
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover{
+           color:rgb(243, 134, 134);
+            border:none;
+        }
+    }
+    .edit-table-tambah-barang{
+        background: none;
+        color:rgb(158, 158, 2);
+        border:none;
+        font-size: 20px;
+        cursor: pointer;
+        &:hover{
+            color:rgb(190, 190, 83);
+             border:none;
+         }
+    }
+
+    
+}

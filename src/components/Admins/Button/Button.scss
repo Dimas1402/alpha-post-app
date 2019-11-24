@@ -1,0 +1,35 @@
+$color1: #20b2aa;
+$color2: #1fc9c0;
+
+.btn-hr-bln {
+  border: none;
+  margin-top: 10px;
+
+  background: $color1;
+  height: 50px;
+  width: 180px;
+  border-radius: 5px;
+  padding-top: 8px;
+
+  display: flex;
+  a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+  }
+  .btn-active-bln {
+    color: $color2;
+    background: $color2;
+    height: 35px;
+    border-radius: 5px;
+  }
+  .btn-harian {
+    width: 75px;
+    font-size: 15px;
+    border: none;
+    &:hover {
+      background: $color2;
+      color: white;
+    }
+  }
+}

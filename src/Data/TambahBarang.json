@@ -1,0 +1,29 @@
+{
+    "TambahBarang" :[
+        {
+            "id" : "1",
+            "name": "Nama Barang",
+            "placeholder":"nama barang...",
+            "type": "text"
+            
+        },
+        {
+            "id" : "2",
+            "name":"Jumlah Barang",
+            "placeholder":"jumlah barang...",
+            "type":"number"
+        },
+        {
+            "id" : "3",
+            "name":"Harga Satuan",
+            "placeholder":"harga satuan...",
+            "type":"number"
+        },
+        {
+            "id" : "4",
+            "name":"Total",
+            "placeholder":"",
+            "type":"number"
+        }
+    ]
+}
