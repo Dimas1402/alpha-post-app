@@ -15,20 +15,31 @@ const Sidebar = props => {
         className="fas fa-times silang"
       ></i>
       <img className="img-logo" src={logo} alt="" />
-      <div className="div-img">
-        <div className="row">
-          <img
-            src="https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6"
-            alt="..."
-            className="img-thumbnail img-admin"
-          ></img>
-          <p>Bang Admin </p>
-          <br></br>
-          <p className="admin-p">
-            <i id="icon-circle" className="fas fa-circle"></i> Admin
-          </p>
-        </div>
-      </div>
+      <ul className="list-group div-img mt-3">
+        <li className="list-group-item li-body">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  {" "}
+                  <img
+                    src="https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6"
+                    alt="..."
+                    className="img-thumbnail img-admin mr-3"
+                  />
+                </td>
+                <td>
+                  <p className="admin-title">Bang Admin </p>
+
+                  <p className="admin-circle">
+                    <i id="icon-circle" className="fas fa-circle"></i> Admin
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+      </ul>
 
       <ListContainer />
     </div>

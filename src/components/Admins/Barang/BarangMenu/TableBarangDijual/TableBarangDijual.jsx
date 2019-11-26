@@ -19,9 +19,9 @@ const TableBarangDijual = () => {
             <tr>
               <th scope="row">1</th>
               <td>Pensil</td>
-              <td>5</td>
+              <td>15</td>
               <td>Rp.1000</td>
-              <td>Rp.5000</td>
+              <td>Rp.15.000</td>
               <td>
                 <i className="fas fa-trash-alt delete-table-tambah-barang"></i>{" "}
                 <i className="fas fa-edit edit-table-tambah-barang"></i>

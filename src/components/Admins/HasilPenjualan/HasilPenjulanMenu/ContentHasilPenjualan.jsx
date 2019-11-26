@@ -2,6 +2,7 @@ import React from "react";
 import NavbarContainer from "../../../../container/Admins/Navbar";
 import "./_ContentHasilPenjualan.scss";
 import ModalHasilPenjualan from "./Modal";
+import LaporanHasilPenjualan from "./LaporanHasilPenjualan";
 
 const ContentHasilPenjualan = () => {
   return (
@@ -33,21 +34,24 @@ const ContentHasilPenjualan = () => {
                 <tr>
                   <th scope="row">1</th>
                   <td>Pensil</td>
-                  <td>5</td>
+                  <td>15</td>
                   <td>Rp.1000</td>
                   <td>
                     <i
-                    style={{cursor:"pointer"}}
+                      style={{ cursor: "pointer" }}
                       className="fas fa-sort-amount-up-alt icon-penjualan ml-5"
                       data-toggle="modal"
                       data-target=".bd-example-modal-lg"
                     ></i>
-                   <ModalHasilPenjualan/>
+                    <ModalHasilPenjualan />
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
+        </div>
+        <div className="col-md-12 mt-5">
+          <LaporanHasilPenjualan />
         </div>
       </div>
     </div>

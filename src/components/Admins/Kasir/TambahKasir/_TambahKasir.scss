@@ -1,0 +1,56 @@
+.card-kasir {
+  background: #ecf0f0;
+  border: none;
+  margin-top: 5px;
+
+  label {
+    color: #7a8080;
+    font-size: 13px;
+  }
+
+  span.labelUpload {
+    position: absolute;
+    z-index: 0;
+    display: inline-block;
+    background: #20b2aa;
+    cursor: pointer;
+    color: white;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    top: 0px;
+  }
+  #upload {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 16px;
+   opacity: 0;
+    cursor: pointer;
+  }
+  .btn-simpan-data-kasir{
+    background: #20b2aa;
+    color:white;
+    border:none;
+    &:hover{
+      background: #1FC9C7;
+    }
+  }
+  .img-upload{
+      width:120px;
+      height:120px;
+   
+  }
+}
+
+.foto-upload{
+  img{
+    position: relative;
+   top:50px;
+   right:20px;
+  }
+}
