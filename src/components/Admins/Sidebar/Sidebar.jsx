@@ -14,7 +14,7 @@ const Sidebar = props => {
         id="silang"
         className="fas fa-times silang"
       ></i>
-      <img className="img-logo" src={logo} alt="" />
+      <img className="img-logo" src={logo} alt="" />  
       <ul className="list-group div-img mt-3">
         <li className="list-group-item li-body">
           <table>

@@ -20,8 +20,8 @@ const ContentKasir = () => {
           </button>
          <TambahKasirContainer/>
         </div>
-        <div className="col-md-12 mt-4">
-            <TableKasir/>
+        <div className="col-md-12 mt-5 tableKasir">
+        <TableKasir/>
         </div>
       </div>
     </div>

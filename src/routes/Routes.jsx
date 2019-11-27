@@ -6,13 +6,14 @@ import Dashboard from "../components/Admins/Admin/AdminMenu/Dashboard/Dashboard"
 import Dashboard2 from "../components/Admins/Admin/AdminMenu/Dashboard/Dashboard2";
 import HasilPenjualan from "../components/Admins/HasilPenjualan/HasilPenjualan";
 import Kasir from "../components/Admins/Kasir/Kasir";
+import Login from "../components/Login/Login";
 
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={() => <h1>this is routes</h1>} />
+        <Route exact path="/" component={Login} />
         {/* <Route path="/admin" component={Admin} /> */}
         <Route path="/admin/dashboard" component={Admin}/>
         <Route path="/admin/barang" component={Barang}/>

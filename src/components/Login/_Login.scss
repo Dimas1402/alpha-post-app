@@ -1,0 +1,119 @@
+.login {
+  height: 100vh;
+  background-color: #77aa77;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+
+  .box-login {
+   
+    width: 400px;
+    height: 100vh;
+    background: #20b2aa;
+    float: left;
+    right: 0;
+    position: absolute;
+
+    img {
+      background: none;
+      border: none;
+      width: 150px;
+      height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    //type text
+
+    input[type="text"] {
+      width: 100%;
+      border: 2px solid #aaa;
+      border-radius: 10px;
+      margin: 8px 0;
+      outline: none;
+      padding: 8px;
+      box-sizing: border-box;
+      transition: 0.3s;
+    }
+
+    input[type="text"]:focus {
+      border-color: #1fc9c7;
+      box-shadow: 0 0 8px 0 #1fc9c7;
+    }
+
+    .withicon input[type="text"] {
+      padding-left: 40px;
+    }
+    .withicon {
+      position: relative;
+    }
+    .withicon i {
+      position: absolute;
+      left: 0;
+      bottom: 13px;
+      padding:9px 8px;
+      color:#aaa; 
+      transition: .3s;
+    }
+    .withicon input[type=text]:focus + i {
+        color: #1fc9c7;
+    }
+
+    //type pasword
+    input[type="password"] {
+        width: 100%;
+        border: 2px solid #aaa;
+        border-radius: 10px;
+        margin: 8px 0;
+        outline: none;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 0.3s;
+      }
+  
+      input[type="password"]:focus {
+        border-color: #1fc9c7;
+        box-shadow: 0 0 8px 0 #1fc9c7;
+      }
+  
+      .withicon input[type="password"] {
+        padding-left: 40px;
+      }
+      .withicon {
+        position: relative;
+      }
+      .withicon i {
+        position: absolute;
+        left: 0;
+        bottom: 13px;
+        padding:9px 8px;
+        color:#aaa; 
+        transition: .3s;
+      }
+      .withicon input[type=password]:focus + i {
+          color: #1fc9c7;
+      }
+  }
+}
+
+.btn-login{
+    width: 100%;
+    border-radius:10px ;
+    margin-top: 40px;
+    background: #1fc9c7;
+    color:white;
+    border: none;
+    &:hover{
+        background:#34e2df ;
+    }
+}
+
+.title-forgot-password {
+  color:white;
+  cursor: pointer;
+  margin-top: 20px;
+  &:hover{
+    color: #e9dfdf;
+  }
+}

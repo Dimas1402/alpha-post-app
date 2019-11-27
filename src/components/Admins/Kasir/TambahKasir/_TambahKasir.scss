@@ -29,28 +29,56 @@
     z-index: 1;
     top: 0px;
     left: 16px;
-   opacity: 0;
+    opacity: 0;
     cursor: pointer;
   }
-  .btn-simpan-data-kasir{
+  .btn-simpan-data-kasir {
     background: #20b2aa;
-    color:white;
-    border:none;
-    &:hover{
-      background: #1FC9C7;
+    color: white;
+    border: none;
+    &:hover {
+      background: #1fc9c7;
     }
   }
-  .img-upload{
-      width:120px;
-      height:120px;
-   
+
+  .img-upload {
+    width: 120px;
+    height: 120px;
   }
 }
 
-.foto-upload{
-  img{
+.foto-upload {
+  img {
     position: relative;
-   top:50px;
-   right:20px;
+    top: 50px;
+    right: 20px;
   }
+}
+
+@media only screen and(max-width:800px) {
+  .foto-upload {
+    margin-top: 20px;
+  }
+
+  .card-kasir span.labelUpload{
+    width: 33%;
+  }
+
+  .card-kasir .img-upload{
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .btn-simpan-data-kasir-800 {
+    position: relative;
+    background: #20b2aa;
+    color: white;
+    border: none;
+    display: block;
+    &:hover {
+      background: #1fc9c7;
+    }
+  }
+
 }

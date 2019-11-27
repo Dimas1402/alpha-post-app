@@ -53,6 +53,8 @@ $font-h1: "Audiowide", cursive;
     .sidebar {
       z-index: 99;
       display: none;
+     
+
       #silang {
         position: relative;
         display: block;
@@ -64,10 +66,23 @@ $font-h1: "Audiowide", cursive;
       }
     }
     #show {
+      animation: fade 1s;
       display: block;
     }
     #hidden {
-      display: none;
+      // position: relative;
+      // left: -500px;
+      // animation: fadeout 1s;
+
     }
   
+  }
+
+  @keyframes fade {
+    0%{opacity: 0;}
+  }
+
+
+  @keyframes fadeout {
+    0%{opacity: 1;}
   }
