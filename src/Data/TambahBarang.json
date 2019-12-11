@@ -4,26 +4,50 @@
             "id" : "1",
             "name": "Nama Barang",
             "placeholder":"nama barang...",
-            "type": "text"
+            "type": "text",
+            "key":"product_name",
+            "value":"product_name"
             
         },
         {
             "id" : "2",
-            "name":"Jumlah Barang",
-            "placeholder":"jumlah barang...",
-            "type":"number"
+            "name":"Brand",
+            "placeholder":"brand...",
+            "type":"text",
+            "key":"brand",
+            "value":"brand"
         },
         {
             "id" : "3",
-            "name":"Harga Satuan",
-            "placeholder":"harga satuan...",
-            "type":"number"
+            "name":"Harga Jual",
+            "placeholder":"harga jual ...",
+            "type":"number",
+            "key":"sell_price",
+            "value":"sell_price"
         },
         {
             "id" : "4",
-            "name":"Total",
-            "placeholder":"",
-            "type":"number"
+            "name":"Harga Beli",
+            "placeholder":" harga beli...",
+            "type":"number",
+            "key":"buy_price",
+            "value":"buy_price"
+        },
+         {
+            "id" : "5",
+            "name":"Stock",
+            "placeholder":" Stock...",
+            "type":"number",
+            "key":"stock",
+            "value":"stock"
+        },
+        {
+            "id" : "6",
+            "name":"Category",
+            "placeholder":" category...",
+            "type":"number",
+            "key":"category_id",
+            "value":"category_id"
         }
     ]
 }

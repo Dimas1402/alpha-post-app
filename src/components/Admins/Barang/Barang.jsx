@@ -6,9 +6,10 @@ import withSidebar from "../Sidebar/withSidebar";
 import "./_Barang.scss";
 
 import TableTambahBarang from "../Barang/BarangMenu/TableTambahBarang/tableTambahBarang";
-import Barang from "./BarangMenu/TambahBarang/TambahBarang";
+// import Barang from "./BarangMenu/TambahBarang/TambahBarang";
 import BarangDijual from "./BarangMenu/BarangDijual/BarangDijual";
 import TableBarangDijual from "./BarangMenu/TableBarangDijual/TableBarangDijual";
+import TambahBarangContainer from "../../../container/Admins/Barang/TambahBarang"
 
 const Admin = () => {
   return (
@@ -24,7 +25,7 @@ const Admin = () => {
           >
             <div className="row">
               <div className="col-md-12">
-                <Barang />
+                <TambahBarangContainer/>
                 <div className="row">
                   <div className="col-md-12">
                     <TableTambahBarang />
