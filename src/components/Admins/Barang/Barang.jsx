@@ -5,11 +5,14 @@ import SidebarContainer from "../../../container/Admins/Sidebar";
 import withSidebar from "../Sidebar/withSidebar";
 import "./_Barang.scss";
 
-import TableTambahBarang from "../Barang/BarangMenu/TableTambahBarang/tableTambahBarang";
+// import TableTambahBarang from "../Barang/BarangMenu/TableTambahBarang/tableTambahBarang";
 // import Barang from "./BarangMenu/TambahBarang/TambahBarang";
-import BarangDijual from "./BarangMenu/BarangDijual/BarangDijual";
-import TableBarangDijual from "./BarangMenu/TableBarangDijual/TableBarangDijual";
+// import BarangDijual from "./BarangMenu/BarangDijual/BarangDijual";
+// import TableBarangDijual from "./BarangMenu/TableBarangDijual/TableBarangDijual";
 import TambahBarangContainer from "../../../container/Admins/Barang/TambahBarang"
+import TableTambahBarangContainer from "../../../container/Admins/Barang/TableTambahBarangContainer";
+import BarangJualContainer from "../../../container/Admins/Barang/BarangJualContainer";
+import TableBarangDiJualContainer from "../../../container/Admins/Barang/TableBarangDiJual";
 
 const Admin = () => {
   return (
@@ -28,17 +31,17 @@ const Admin = () => {
                 <TambahBarangContainer/>
                 <div className="row">
                   <div className="col-md-12">
-                    <TableTambahBarang />
+                   <TableTambahBarangContainer/>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-12">
-                    <BarangDijual />
+                   <BarangJualContainer/>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-12">
-                    <TableBarangDijual />
+                   <TableBarangDiJualContainer/>
                   </div>
                 </div>
               </div>

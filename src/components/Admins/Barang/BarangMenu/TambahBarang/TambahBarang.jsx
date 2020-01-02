@@ -20,7 +20,7 @@ const TambahBarang = props => {
             <div className='row'>
               <div className='col-md-6 '>
                 {TambahBarangjson.TambahBarang.map((form) => (
-                  <div className='form-group row'>
+                  <div key={form.id} className='form-group row'>
                     <label className='col-sm-2 col-form-label'>
                       {form.name}
                     </label>
@@ -32,6 +32,7 @@ const TambahBarang = props => {
                         type={form.type}
                         className='form-control'
                         placeholder={form.placeholder}
+                       required
                       />
                     </div>
                   </div>

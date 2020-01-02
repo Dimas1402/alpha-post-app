@@ -5,49 +5,33 @@
             "name": "Nama Barang",
             "placeholder":"nama barang...",
             "type": "text",
-            "key":"product_name",
-            "value":"product_name"
+            "key":"nama_barang",
+            "value":"nama_barang"
             
         },
         {
             "id" : "2",
-            "name":"Brand",
-            "placeholder":"brand...",
-            "type":"text",
-            "key":"brand",
-            "value":"brand"
+            "name":"Jumlah Barang",
+            "placeholder":"jumlah barang ...",
+            "type":"number",
+            "key":"jumlah_barang",
+            "value":"jumlah_barang"
         },
-        {
+        {   
             "id" : "3",
-            "name":"Harga Jual",
-            "placeholder":"harga jual ...",
+            "name":"Harga Satuan",
+            "placeholder":"harga satuan ...",
             "type":"number",
-            "key":"sell_price",
-            "value":"sell_price"
+            "key":"harga_satuan",
+            "value":"harga_satuan"
         },
         {
-            "id" : "4",
-            "name":"Harga Beli",
-            "placeholder":" harga beli...",
+            "id": "4",
+            "name":"Modal",
+            "placeholder":"modal",
             "type":"number",
-            "key":"buy_price",
-            "value":"buy_price"
-        },
-         {
-            "id" : "5",
-            "name":"Stock",
-            "placeholder":" Stock...",
-            "type":"number",
-            "key":"stock",
-            "value":"stock"
-        },
-        {
-            "id" : "6",
-            "name":"Category",
-            "placeholder":" category...",
-            "type":"number",
-            "key":"category_id",
-            "value":"category_id"
+            "key":"total",
+            "value":"total"
         }
     ]
 }
