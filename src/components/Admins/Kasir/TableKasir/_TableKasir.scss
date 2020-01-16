@@ -18,6 +18,49 @@
     }
 }
 
+.delete-table-kasir{
+    color: rgb(173, 12, 12);
+    cursor: pointer;
+    &:hover{
+        color: rgb(231, 100, 100);
+    }
+}
+
+.edit-table-kasir{
+    color: rgb(121, 121, 14);
+    cursor: pointer;
+    &:hover{
+        color: rgb(180, 180, 67);
+    }
+}
+
+
+.header-table-kasir{
+    color: white;
+    font-weight: bold;
+}
+
+.body-table-kasir{
+    background: white;
+    color: rgb(80, 76, 76);
+}
+
+.footer-table-kasir{
+    background: white;
+    border: none;
+}
+
+.header-modal-kasir{
+    color: white;
+}
+
+.modal-body-editKasir{
+        background: white;
+}
+.modal-footer-edit-kasir{
+    background: white;
+    border: none;
+}
 @media only screen and(max-width:800px){
     .modal-img-kasir{
         img{
@@ -31,3 +74,4 @@
         margin-top: 90px;
     }
 }
+

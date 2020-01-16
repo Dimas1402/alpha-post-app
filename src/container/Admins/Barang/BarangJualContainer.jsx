@@ -9,6 +9,7 @@ class BarangJualContainer extends React.Component {
     this.state = {
       nama_barang_jual:"",
       jumlah_barang:"",
+      stock:"",
       harga_satuan:"",
       total:""
     }
@@ -18,11 +19,11 @@ class BarangJualContainer extends React.Component {
     this.props.getDataTambahBarang()
     // const {dataBarang} = this.props.data
     // console.log("data Barang",dataBarang)
-    const { dataBarang } = this.props.data
-    console.log("data", dataBarang)
-  }
 
+  }
   
+
+    
   handleChangeBarangDiJual = e => {
     e.preventDefault()
     // console.log(e.target)
@@ -30,7 +31,7 @@ class BarangJualContainer extends React.Component {
       {
         [e.target.name]: e.target.value
       },
-      () => console.log(this.state)
+      () => console.log('barang jal ccontaineru',this.state)
     )
   }
 
@@ -42,6 +43,7 @@ class BarangJualContainer extends React.Component {
       harga_satuan: this.state.harga_satuan,
       total: this.state.jumlah_barang * this.state.harga_satuan
     })
+
     this.setState({
       nama_barang_jual:"",
       jumlah_barang:"",
@@ -61,8 +63,10 @@ class BarangJualContainer extends React.Component {
         kirimBarang={this.handleSubmitJualBarang}
         handleChange={this.handleChangeBarangDiJual}
         stateNama={this.state.nama_barang_jual}
+        stateStock={this.stat}
         stateJumlah={this.state.jumlah_barang}
         stateHarga={this.state.harga_satuan}
+      
       />
     )
   }
@@ -70,7 +74,8 @@ class BarangJualContainer extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    data: state.admin
+    data: state.admin,
+  
   }
 }
 

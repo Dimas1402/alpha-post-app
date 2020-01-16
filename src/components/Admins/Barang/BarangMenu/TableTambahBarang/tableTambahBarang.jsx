@@ -2,7 +2,7 @@ import React from 'react'
 import './_tableTambahBarang.scss'
 import TambahBarangjson from "../../../../../Data/TambahBarang.json"
 
-const TableTambahBarang = ({ dataBarang, idBarang, deleteBarangCon,handleChangeEdit,state,handleDataBarang, dataEditbarang}) => {
+const TableTambahBarang = ({ dataBarang, idBarang, deleteBarangCon,handleChangeEdit,state,handleDataBarang, dataEditbarang, isLoading}) => {
   return (
     <div className='table-tambah-barang'>
       <table className='table mt-4 tambahBarang'>
@@ -51,7 +51,7 @@ const TableTambahBarang = ({ dataBarang, idBarang, deleteBarangCon,handleChangeE
                     className='fas fa-trash-alt delete-table-tambah-barang'
                   ></i>{' '}
                   <i
-                    onClick={() => handleDataBarang(datas)}
+                    onClick={() => handleDataBarang(datas,index)}
                     data-toggle='modal'
                     data-target='#modalEdit'
                     className='fas fa-edit edit-table-tambah-barang'
@@ -98,9 +98,11 @@ const TableTambahBarang = ({ dataBarang, idBarang, deleteBarangCon,handleChangeE
                 Tidak
               </button>
               <button
-                type='sumbit'
+                type='button'
                 className='btn btn-danger'
                 onClick={deleteBarangCon}
+                data-dismiss='modal'
+               
               >
                 Delete
               </button>

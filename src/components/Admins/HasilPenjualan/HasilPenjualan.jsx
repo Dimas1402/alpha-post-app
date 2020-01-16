@@ -1,12 +1,12 @@
 import React from "react";
 import withSidebar from "../Sidebar/withSidebar";
-import ContentHasilPenjualan from "./HasilPenjulanMenu/ContentHasilPenjualan";
+import ContentHasilPenjualanContainer from "../../../container/Admins/HasilPenjualan/ContentHasilPenjualanContainer";
 
 const HasilPenjualan = () => {
   return (
     <div className="container-fluid admin">
       <div className="row ">
-      <ContentHasilPenjualan/>
+      <ContentHasilPenjualanContainer/>
       </div>
     </div>
   );

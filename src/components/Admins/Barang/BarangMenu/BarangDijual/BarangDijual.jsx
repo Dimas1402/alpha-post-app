@@ -6,9 +6,11 @@ const BarangDijual = ({
   getDataClick,
   handleChange,
   stateNama,
+  stateStock,
   stateJumlah,
   stateHarga,
-  kirimBarang
+  kirimBarang,
+ 
 }) => {
   return (
     <div>
@@ -43,11 +45,12 @@ const BarangDijual = ({
                     value={stateNama}
                     name='nama_barang_jual'
                     onChange={handleChange}
+                    required
                   >
                     <option value='DEFAULT'>pilih</option>
                     {dataBarangOptions.map(res => (
                       <option key={res.id}>
-                        {res.nama_barang}({res.jumlah_barang})
+                        {res.nama_barang}
                       </option>
                     ))}
                   </select>
@@ -68,6 +71,7 @@ const BarangDijual = ({
                     name='jumlah_barang'
                     onChange={handleChange}
                     value={stateJumlah}
+                    required
                   />
                 </div>
                 {/* ))} */}
@@ -86,17 +90,23 @@ const BarangDijual = ({
                     onChange={handleChange}
                     name='harga_satuan'
                     value={stateHarga}
+                    required
                   />
                 </div>
                 <button
                   className='btn btn-outline-primary btn-tambah-barang float-right'
                   type='submit'
+                  data-toggle='collapse'
+                  data-target='#collapseExample1'
+                  aria-expanded='false'
+                  aria-controls='collapseExample'
                 >
                   + Tambah
                 </button>
               </div>
             </div>
           </form>
+          
         </div>
       </div>
     </div>

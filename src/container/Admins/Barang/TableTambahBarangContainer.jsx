@@ -16,7 +16,8 @@ class TableTambahBarangContainer extends React.Component {
       nama_barang: '',
       jumlah_barang: '',
       harga_satuan: '',
-      total: ''
+      total: '',
+      index:0
     }
   }
 
@@ -58,15 +59,16 @@ class TableTambahBarangContainer extends React.Component {
   }
 
   //fungsi edit
-  handleDataBarang = datas => {
+  handleDataBarang = (datas, index) => {
     const dataBarang = datas
     console.log(dataBarang)
     this.setState({
-      _id:datas._id,
+      _id: datas._id,
       nama_barang: datas.nama_barang,
       jumlah_barang: datas.jumlah_barang,
       harga_satuan: datas.harga_satuan,
-      total: datas.total
+      total: datas.total,
+      index:index
     })
   }
 
@@ -78,7 +80,8 @@ class TableTambahBarangContainer extends React.Component {
       nama_barang: this.state.nama_barang,
       jumlah_barang: this.state.jumlah_barang,
       harga_satuan: this.state.harga_satuan,
-      total: this.state.total
+      total: this.state.total,
+      index: this.state.index
     })
     // this.props.getDataTambahBarang();
   }
